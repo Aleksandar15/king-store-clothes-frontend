@@ -10,7 +10,7 @@ const config = {
   messagingSenderId: "666237931132",
   appId: "1:666237931132:web:5cce93431cf05ccac7c3f9",
   measurementId: "G-RN3DQ88620",
-};
+}; //
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
   if (!userAuth) return;
