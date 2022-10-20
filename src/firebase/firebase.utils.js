@@ -3,23 +3,14 @@ import "firebase/compat/auth";
 import "firebase/compat/firestore";
 
 const config = {
-  apiKey: "AIzaSyCX72gfHsPjTfVg0ckJ4TtdImjzDRwArE8",
-  authDomain: "crwn-db-8888.firebaseapp.com",
-  projectId: "crwn-db-8888",
-  storageBucket: "crwn-db-8888.appspot.com",
-  messagingSenderId: "343432377299",
-  appId: "1:343432377299:web:4822a9db9d4c5ce2b97526",
-  measurementId: "G-K5WVGKXPBH",
+  apiKey: "AIzaSyDyctImpR8hIG3ZcIIvq36Ai5J_h1fiels",
+  authDomain: "king-store-8888.firebaseapp.com",
+  projectId: "king-store-8888",
+  storageBucket: "king-store-8888.appspot.com",
+  messagingSenderId: "666237931132",
+  appId: "1:666237931132:web:5cce93431cf05ccac7c3f9",
+  measurementId: "G-RN3DQ88620",
 };
-// const config = {
-//   apiKey: "AIzaSyDyctImpR8hIG3ZcIIvq36Ai5J_h1fiels",
-//   authDomain: "king-store-8888.firebaseapp.com",
-//   projectId: "king-store-8888",
-//   storageBucket: "king-store-8888.appspot.com",
-//   messagingSenderId: "666237931132",
-//   appId: "1:666237931132:web:5cce93431cf05ccac7c3f9",
-//   measurementId: "G-RN3DQ88620"
-// };
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
   if (!userAuth) return;
