@@ -17,14 +17,15 @@
 
 #### Visit my live website here: https://king-store-clothes-alek.netlify.app
 
-#### My project technologies:
-
-###### NodeJS + ExpressJS + ReactJS + Redux + Firebase
-
 ## Run my project
 
 - Clone this project.
 - Navigate (cd) into your project directory.
 - Run `npm install` in your command line.
+- Before you do `npm start` make sure that your node version is `12.14.1` which is my tested & working version as the newer versions may fail.
 - Run `npm start` in your command line.
 - Visit http://localhost:3000 in your browser!
+
+#### NOTE
+
+This repository is my frontend part of the app; while the full-stack code is published in here: <a href="https://github.com/Aleksandar15/king-store-clothes">king-store-clothes</a>.

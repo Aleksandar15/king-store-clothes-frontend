@@ -40,7 +40,8 @@ const signInTestUserStyles = css`
   background-color: green;
   border: none;
   margin-bottom: 10px;
-  padding: 0px 150px 0px 150px;
+  display: block;
+  padding: 0px 137px 0px 137px;
 
   &:hover {
     border: none;
